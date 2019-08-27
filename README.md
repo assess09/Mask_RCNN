@@ -239,3 +239,8 @@ A computer vision class project by HU Shiyu to apply the color pop effect on peo
 
 ### [GRASS GIS Addon](https://github.com/ctu-geoforall-lab/i.ann.maskrcnn) to generate vector masks from geospatial imagery. Based on a [Master's thesis](https://github.com/ctu-geoforall-lab-projects/dp-pesek-2018) by Ondřej Pešek.
 ![GRASS GIS Image](assets/project_grass_gis.png)
+
+# Note
+*  The latest `pycocotools` repository link: [https://github.com/philferriere/cocoapi](https://github.com/philferriere/cocoapi)
+    * The repositories provided from the comment have old versions so does not work
+* `plt.show()` works only for Jupyter Notebook so it is replaced with `plt.savefig()`.
