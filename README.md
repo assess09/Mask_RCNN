@@ -243,5 +243,5 @@ A computer vision class project by HU Shiyu to apply the color pop effect on peo
 # Note
 *  The latest `pycocotools` repository link: [https://github.com/philferriere/cocoapi](https://github.com/philferriere/cocoapi)
     * The repositories provided from the comment have old versions so does not work
-    * It is recommended to put the package in your local PC because the package is huge to download
+    * It is recommended to put the package in your local PC in advance
 * In `/mrcnn/visualize.py`, `plt.show()` works only for Jupyter Notebook so it is replaced with `plt.savefig()`.
