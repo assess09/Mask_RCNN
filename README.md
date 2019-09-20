@@ -244,8 +244,10 @@ A computer vision class project by HU Shiyu to apply the color pop effect on peo
 * The packages that have to be manually installed
     * The latest `pycocotools` repository link: https://github.com/philferriere/cocoapi
         * The repositories provided from the comment have old versions so does not work
+        * Need to install [Visual C++ Build Tools](https://go.microsoft.com/fwlink/?LinkId=691126)(Click to download) to build
         * Read `/PythonAPI/Makefile` to get the command prompt to build
         * Open cmd and move the directory to `\PythonAPI`, then install the `Cython` and `numpy` with the command `pip3 install Cython` and `pip3 install numpy`, then build the cocoapi with the command `python setup.py build_ext --inplace`
+        
     * `amgaug` package link: https://github.com/aleju/imgaug
     * It is recommended to put the packages in your local PC in advance
     
